@@ -1,0 +1,66 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  height: 80vh;
+  margin-top: 5rem;
+  background-image: url("https://www.gannett-cdn.com/presto/2021/01/20/PIND/ec9e60ee-573f-40b0-9760-5a7c31fc342b-BigGyms_NewCastle_MM_014.JPG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px 25px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.checkbox {
+  width: 20px !important;
+}
+
+.first-section input {
+  width: 85%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.second-section input{
+  width: 80%;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.form h1, p {
+  text-align: center;
+}
+button {
+  border: none;
+  color: white;
+  background: #1560BD;
+  padding: 8px 25px;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto 10px auto;
+  width: 120px;
+}
+
+.second-section {
+  margin-top: 15px;
+}
+
+.proficiency {
+  display: flex;
+  align-items: center;
+}
+
+.terms {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}

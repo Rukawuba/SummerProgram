@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registration</title>
+  </head>
+  <body>
+  <div class="form">
+      <h1>Player Registration Form</h1>
+      <p>Complete this form to express your interest in signing up for the upcoming basketball camp.</p>
+      <form>
+          <!--Contact Details-->
+          <fieldset class="first-section">
+            <legend>Player Submission Form</legend>
+            <label for="Fname">First Name</label>
+            <input type="text" id="Fname" name="Fname" autofocus placeholder="First Name" autocomplete="on" required>
+            <br><br>
+            <label for="Lname">Last Name</label>
+            <input type="text" id="Lname" name="Lname" placeholder="Last Name" autocomplete="on" required>
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Email" autocomplete="on" required>
+            <br><br>
+            <label for="phone">Phone</label>
+            <input type="tel" id="tel" name="phone" placeholder="+17322544774"required>
+            <br><br>
+        </fieldset>
+        <!--Player Information-->
+        <fieldset class="second-section">
+            <legend>Personal Information</legend>
+            <label for="dob">Birth Date</label>
+            <input type="date" id="dob"> <br><br>
+            <label for="gender">Gender </label>
+            <input list="genders" name="gender" id="gender">
+            <datalist id="genders">
+              <option value="female">
+              <option value="male">
+              <option value="other">
+            </datalist><br><br>
+           <div class="expertise">
+              <label for="expertise">Expertise</label>
+            <input type="range" value="5" max="10" id="expertise" name="expertise">
+           </div>
+           </fieldset>
+              <!-- Preferred Language -->
+              <div class="terms">
+                <input type="checkbox" id="scales" name="scales" class="checkbox">
+              <label for="scales">I have read and agree to the terms and conditions</label>
+             </div>
+            <button>Submit</button>
+          </form>
+          </div>
+        </body>
+</html>
