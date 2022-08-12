@@ -1,2 +1,2 @@
-# SummerProgram
-Will use thise Repo as a trial for a SummerProgram. Will include what I've learned through different demos in order to create a site in its totality.
+#Camp Site
+Will use this Repo to creat a website for the making of a basketball camp. Will include what i learn along the way.
